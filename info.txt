@@ -1,0 +1,5 @@
+Student_id : 2313111045
+Student Name : Krittin Korakochsunun
+Major : IT
+Level : 1
+Faculty : Information Technology
