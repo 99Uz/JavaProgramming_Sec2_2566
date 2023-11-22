@@ -14,7 +14,8 @@ public class Withdrawal {
 		int phan , hahroi , roi , sib = 0;
 		phan = withdraw / 1000;
 		hahroi = (withdraw % 1000) / 500;
-		roi = (withdraw % 1000) / 100;
+		//roi = (withdraw-(phan*1000)-(hahroi*500))/100;
+		roi = withdraw % 1000 % 500 / 100;
 		sib = (withdraw - ((phan*1000)+(hahroi*500)+(roi*100)));
 		
 		if(withdraw > balance) {
